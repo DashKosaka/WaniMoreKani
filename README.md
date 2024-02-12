@@ -18,3 +18,19 @@ graph LR
 A((ENG Vocabulary))------>B((JP Kanji))
 
 ```
+
+# Quickstart
+
+## Requirements
+- Python3
+- WaniKani Account
+- Japanese Keyboard Language Pack
+
+## Installation
+```
+git clone https://github.com/DashKosaka/WaniMoreKani.git
+cd WaniMoreKani
+pip install -r requirements.txt
+python manager.py initial-setup
+*Follow the instructions in the command line*
+```

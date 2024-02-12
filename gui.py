@@ -283,7 +283,7 @@ def setup(
         dcc.Store(id='session-feedback')
     ], style={'text-align': 'center'})
 
-    app.run(debug=True, port=8051)
+    app.run(debug=True, port=8050, host='0.0.0.0')
 
 
 # Start app
