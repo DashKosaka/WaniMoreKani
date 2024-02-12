@@ -1,0 +1,4 @@
+wanikani-api
+pandas
+dash
+argh
